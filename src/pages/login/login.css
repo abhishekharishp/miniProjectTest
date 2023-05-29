@@ -1,0 +1,265 @@
+.icons {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    width: 2rem;
+    height: 2rem;
+    overflow: hidden;
+  }
+  .signUpOverlayChild {
+    position: absolute;
+    top: 4rem;
+    left: 4.44rem;
+    width: 41.25rem;
+    height: 44.94rem;
+  }
+  .jumpIntoSait {
+    margin: 0;
+  }
+  .jumpIntoSaitContainer {
+    position: absolute;
+    top: 0;
+    left: 10.44rem;
+    font-weight: 500;
+    text-align: center;
+  }
+  .label {
+    top: 0;
+    left: 0;
+  }
+  .hide,
+  .icon,
+  .label {
+    position: absolute;
+  }
+  .icon {
+    top: 0.19rem;
+    right: 3.06rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    overflow: hidden;
+  }
+  .hide {
+    top: 0;
+    right: 0;
+  }
+  .passwordHideSee {
+    position: absolute;
+    top: 0;
+    right: 0.55rem;
+    width: 4.56rem;
+    height: 1.69rem;
+    display: none;
+    text-align: right;
+    font-size: var(--font-size-lg);
+    color: var(--color-dimgray-200);
+  }
+  .labelParent {
+    align-self: stretch;
+    height: 1.69rem;
+  }
+  .div,
+  .inputsChild,
+  .labelParent {
+    position: relative;
+  }
+  .inputsChild {
+    background-color: var(--color-gray-400);
+    width: 0.06rem;
+    height: 1.5rem;
+  }
+  .icons1,
+  .inputs {
+    position: absolute;
+    display: none;
+  }
+  .inputs {
+    top: 0.94rem;
+    left: 1.5rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .icons1 {
+    top: 2.5rem;
+    right: 1.5rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    overflow: hidden;
+  }
+  .textField1 {
+    align-self: stretch;
+    position: relative;
+    border-radius: var(--br-xs);
+    border: 1px solid var(--color-dimgray-300);
+    box-sizing: border-box;
+    height: 3.5rem;
+    overflow: hidden;
+    flex-shrink: 0;
+    color: var(--color-gray-400);
+  }
+  .errorMessage {
+    position: relative;
+    font-size: var(--font-size-sm);
+    color: var(--color-crimson);
+    display: none;
+  }
+  .textField {
+    width: 33rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-9xs);
+  }
+  .icons2,
+  .signUp {
+    position: relative;
+  }
+  .icons2 {
+    width: 1.5rem;
+    height: 1.5rem;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: none;
+  }
+  .signUp {
+    font-weight: 500;
+  }
+  .iconsParent {
+    position: absolute;
+    top: calc(50% - 17px);
+    left: calc(50% - 51px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-5xs);
+  }
+  .button {
+    position: relative;
+    border-radius: var(--br-13xl);
+    background-color: var(--color-gray-400);
+    width: 33rem;
+    height: 4rem;
+    overflow: hidden;
+    flex-shrink: 0;
+    opacity: 0.25;
+    text-align: center;
+    font-size: var(--font-size-3xl);
+    color: var(--color-white);
+  }
+  .textFieldParent {
+    position: absolute;
+    top: 7.5rem;
+    left: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-base);
+    font-size: var(--font-size-base);
+    color: var(--color-dimgray-100);
+  }
+  .socialMediaLogo {
+    position: relative;
+    width: 1.5rem;
+    height: 1.5rem;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .socialMediaLogoParent {
+    position: absolute;
+    top: calc(50% - 15.5px);
+    left: calc(50% - 129px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-base);
+  }
+  .socialMediaSignuplogin {
+    position: relative;
+    border-radius: var(--br-21xl);
+    background-color: var(--color-white);
+    border: 1px solid var(--color-darkslategray);
+    box-sizing: border-box;
+    width: 33rem;
+    height: 4rem;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .frameWrapper,
+  .socialMediaSignuploginWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .frameWrapper {
+    position: absolute;
+    top: 20.94rem;
+    left: 1.25rem;
+    font-size: var(--font-size-3xl);
+    font-family: var(--font-avenir);
+  }
+  .divider1 {
+    flex: 1;
+    position: relative;
+    background-color: var(--color-dimgray-400);
+    height: 0.13rem;
+  }
+  .divider,
+  .jumpIntoSaitParent {
+    position: absolute;
+    width: 35.5rem;
+  }
+  .divider {
+    top: 19.19rem;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-4xl);
+    font-size: var(--font-size-lg);
+    color: var(--color-dimgray-100);
+    font-family: var(--font-avenir);
+  }
+  .jumpIntoSaitParent {
+    top: 13.69rem;
+    left: 7.31rem;
+    height: 24.94rem;
+  }
+  .signUpOverlay {
+    background-color: var(--color-white);
+    width: 59.56rem;
+    flex-shrink: 0;
+  }
+  .image,
+  .login,
+  .signUpOverlay {
+    position: relative;
+    height: 67.5rem;
+    overflow: hidden;
+  }
+  .image {
+    background-color: var(--color-lightblue);
+    width: 60.38rem;
+    flex-shrink: 0;
+  }
+  .login {
+    background-color: var(--color-white);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 0 0 0 var(--padding-12xs);
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: var(--font-size-13xl);
+    color: var(--color-darkslategray);
+    font-family: var(--font-poppins);
+  }
+  

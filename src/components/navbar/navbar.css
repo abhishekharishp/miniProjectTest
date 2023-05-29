@@ -1,0 +1,115 @@
+.svg-icon3 {
+    position: relative;
+    width: 0.5rem;
+    height: 0.38rem;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .divt-16 {
+    width: 5.67rem;
+    height: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-8xs);
+  }
+  .learn {
+    position: relative;
+    letter-spacing: 0.16px;
+    line-height: 1rem;
+    font-weight: 500;
+  }
+  .divt-161,
+  .navhidden {
+    width: 3.92rem;
+    height: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-xs);
+  }
+  .navhidden {
+    width: 25.68rem;
+    height: 5rem;
+    align-items: center;
+    gap: var(--gap-3xl);
+  }
+  .divflex5 {
+    width: 71.99rem;
+    display: flex;
+    flex-direction: column;
+    padding: 0 var(--padding-181xl);
+    box-sizing: border-box;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .login1 {
+    position: absolute;
+    top: 1.06rem;
+    left: 0;
+    line-height: 1.33rem;
+    font-weight: 500;
+  }
+  .get-started {
+    position: relative;
+    letter-spacing: 0.17px;
+    line-height: 1.06rem;
+    font-weight: 500;
+  }
+  .divoverflow-hidden9,
+  .divw-full2 {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .divw-full2 {
+    background-color: var(--color-gray-200);
+    padding: var(--padding-mini) 1.72rem var(--padding-mini) var(--padding-8xl);
+  }
+  .divoverflow-hidden9 {
+    position: absolute;
+    top: 0;
+    left: 4.16rem;
+    border-radius: var(--br-5xs);
+    text-align: center;
+    color: var(--color-white);
+  }
+  .div8 {
+    position: relative;
+    width: 13.01rem;
+    height: 4.38rem;
+    font-size: var(--font-size-mid);
+  }
+  .divmx-auto1,
+  .headersticky {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+  }
+  .divmx-auto1 {
+    width: 86.88rem;
+    height: 5rem;
+    flex-direction: row;
+    padding: var(--padding-smi) var(--padding-mini) 0;
+    justify-content: flex-end;
+  }
+  .headersticky {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-white);
+    border-bottom: 1px solid var(--color-gray-700);
+    width: 120rem;
+    height: 5.06rem;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    font-size: var(--font-size-base);
+    color: var(--color-gray-200);
+    font-family: var(--font-roboto);
+  }
+  
