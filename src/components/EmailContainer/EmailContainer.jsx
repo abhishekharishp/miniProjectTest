@@ -1,9 +1,9 @@
 import { useState, useCallback } from "react";
-import SignInWithGoogle from "./SignInWithGoogle";
-import PortalPopup from "./PortalPopup";
-import TextField from "./TextField";
+import SignInWithGoogle from "../SignInWithGoogle/SignInWithGoogle";
+import PortalPopup from "../PortalPopups/PortalPopup";
+import TextField from "../TextField";
 import { useNavigate } from "react-router-dom";
-import FrameComponent from "./FrameComponent";
+import FrameComponent from "../FrameComponent/FrameComponent";
 import "./EmailContainer.css";
 const EmailContainer = () => {
   const [isSignInWithGoogleOpen, setSignInWithGoogleOpen] = useState(false);

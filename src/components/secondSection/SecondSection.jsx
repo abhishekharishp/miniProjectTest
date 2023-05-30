@@ -1,4 +1,4 @@
-import Divgrid from "../Divgrid";
+import Divgrid from "../Divgrid/Divgrid";
 import "./SecondSection.css";
 const SecondSection = () => {
   return (
