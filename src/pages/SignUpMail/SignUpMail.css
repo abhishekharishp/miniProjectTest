@@ -1,0 +1,35 @@
+.close-btn-icon {
+  position: absolute;
+  top: 32px;
+  right: 32px;
+  width: 2rem;
+  height: 2rem;
+  overflow: hidden;
+  cursor: pointer;
+}
+.sign-up-part {
+  background-color: var(--color-white);
+  width: 59.56rem;
+  height: 67.5rem;
+  flex-shrink: 0;
+}
+.image-part,
+.sign-up-mail,
+.sign-up-part {
+  position: relative;
+  overflow: hidden;
+}
+.image-part {
+  background-color: var(--color-lightblue);
+  width: 60.38rem;
+  height: 67.5rem;
+  flex-shrink: 0;
+}
+.sign-up-mail {
+  background-color: var(--color-white);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}

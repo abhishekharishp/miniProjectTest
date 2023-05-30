@@ -1,0 +1,16 @@
+.second-section {
+    background-color: var(--color-white);
+    width: 120rem;
+    height: 49.75rem;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: var(--font-size-13xl);
+    color: var(--color-gray-300);
+    font-family: var(--font-roboto);
+  }
+  

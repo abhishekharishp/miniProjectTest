@@ -1,26 +1,47 @@
-import "./navbar.css";
+import { useCallback } from "react";
+import { useNavigate } from "react-router-dom";
+import './navbar.css';
 const Navbar = () => {
+  const navigate = useNavigate();
+
+  const onResourceContainerClick = useCallback(() => {
+    navigate("/resources");
+  }, [navigate]);
+
+  const onLoginContainerClick = useCallback(() => {
+    navigate("/login");
+  }, [navigate]);
+
+  const onGetStartedContainerClick = useCallback(() => {
+    navigate("/signup-mail");
+  }, [navigate]);
+
   return (
-    <div className="headersticky">
-      <div className="divmx-auto1">
-        <div className="divflex5">
-          <div className="navhidden">
-            <div className="divt-16">
-              <div className="learn">Resources</div>
-              <img className="svg-icon3" alt="" src="/svg3.svg" />
+    <div className="navbar">
+      <div className="navbar-container">
+        <div className="sait-logo">
+          <img className="group-icon" alt="" src="/group.svg" />
+        </div>
+        <div className="div3">
+          <div className="links">
+            <div className="resource" onClick={onResourceContainerClick}>
+              <div className="resources2">Resources</div>
             </div>
-            <div className="divt-161">
-              <div className="learn">Learn</div>
-              <img className="svg-icon3" alt="" src="/svg4.svg" />
+            <div className="learn">
+              <div className="resources2">Learn</div>
             </div>
-            <div className="learn">Clubs</div>
+            <div className="clubs">
+              <div className="resources2">Clubs</div>
+            </div>
           </div>
         </div>
-        <div className="div8">
-        <div className="login1">Login</div>
-          <div className="divoverflow-hidden9">
+        <div className="div4">
+          <div className="login1" onClick={onLoginContainerClick}>
+            <div className="login2">Login</div>
+          </div>
+          <div className="get-started" onClick={onGetStartedContainerClick}>
             <div className="divw-full2">
-              <div className="get-started">Get started</div>
+              <div className="get-started1">Get started</div>
             </div>
           </div>
         </div>
