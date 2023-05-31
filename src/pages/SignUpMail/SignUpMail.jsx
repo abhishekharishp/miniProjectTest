@@ -1,6 +1,6 @@
 import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
-import EmailContainer from "../../components/EmailContainer";
+import EmailContainer from "../../components/EmailContainer/EmailContainer";
 import "./SignUpMail.css";
 const SignUpMail = () => {
   const navigate = useNavigate();

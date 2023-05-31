@@ -1,6 +1,6 @@
 import { useCallback } from "react";
 import { redirect } from "react-router-dom";
-import TextField from "../../components/TextField";
+import TextField from "../../components/TextField/TextField"
 import "./SignUpPassword.css";
 const SignUpPassword = () => {
   const navigate = redirect();
