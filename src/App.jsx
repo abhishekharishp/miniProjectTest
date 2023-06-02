@@ -10,6 +10,7 @@ import SignUpMail from "./pages/SignUpMail/SignUpMail";
 import Login from "./pages/login/login";
 import SignUpPassword from "./pages/SignUpPassword/SignUpPassword";
 import { useEffect } from "react";
+import HomeCircle from "./pages/learningCircle/homeCircle/homeCircle";
 
 function App() {
   const location = useLocation();
@@ -72,6 +73,7 @@ function App() {
       <Route path="/signup-mail" element={<SignUpMail />} />
       <Route path="/login" element={<Login />} />
       <Route path="/signup-password" element={<SignUpPassword />} />
+      <Route path="/circle-home" element={<HomeCircle />} />
     </Routes>
     
   );
