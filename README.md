@@ -63,3 +63,13 @@ Usage
 -   Learning Circle: Create or join learning circles based on your interests. Connect with other students and collaborate on studying a particular subject or topic.
 -   Resource Downloading: Access the resources section to download lecture notes, question papers, and other study materials.
 
+Core Team Members
+-----------------
+
+The following are the core team members who have contributed to the development of this project:
+
+-   [Aazim Anish](https://github.com/AazimAnish)
+-   [Aakash PR](https://github.com/aakash414)
+-   [Abishek Harish](https://github.com/abhishekharishp)
+-   [Adharsh K Sreekuttan](https://github.com/janesmith)
+-   [Arjun B](https://github.com/aarjun47)
