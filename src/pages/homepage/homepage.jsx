@@ -1,16 +1,16 @@
-import { useCallback } from "react";
+//import { useCallback } from "react";
 import Navbar from "../../components/navbar/navbar";
-import { useNavigate } from "react-router-dom";
+//import { useNavigate } from "react-router-dom";
 import Footer from "../../components/footer/footer";
 import SecondSection from "../../components/secondSection/SecondSection";
 import ClubSection from "../../components/ClubSection/ClubSection";
 import "./homepage.css";
 const Homepage = () => {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
-  const onInputhsButtonContainerClick = useCallback(() => {
-    navigate("/signup-password");
-  }, [navigate]);
+  // const onInputhsButtonContainerClick = useCallback(() => {
+  //   navigate("/signup-password");
+  // }, [navigate]);
 
   return (
     <div className="landing-page">
@@ -30,21 +30,7 @@ const Homepage = () => {
                   <div className="lorem-ipsum">lorem ipsum</div>
                 </div>
               </div>
-              <div className="divh-full">
-                <div className="formhsform-53250e4e-4394-43ce">
-                  <div className="inputemail-53250e4e-4394-43ce">
-                    <div className="divplaceholder">
-                      <div className="enter-your-email">Enter your email</div>
-                    </div>
-                  </div>
-                  <div
-                    className="inpuths-button"
-                    onClick={onInputhsButtonContainerClick}
-                  >
-                    <div className="sign-me-up">Sign me up</div>
-                  </div>
-                </div>
-              </div>
+              
             </div>
             <img
               className="divrelative-icon"
