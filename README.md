@@ -20,7 +20,6 @@ The project is developed using the following technologies:
 - PHP
 - MySQL
 - Git & GitHub
-- Node.js
 
 ## Installation
 
@@ -61,5 +60,5 @@ The following are the core team members who have contributed to the development 
 - [Aazim Anish](https://github.com/AazimAnish)
 - [Aakash PR](https://github.com/aakash414)
 - [Abishek Harish](https://github.com/abhishekharishp)
-- [Adharsh K Sreekuttan](https://github.com/janesmith)
+- [Adharsh K Sreekuttan](https://github.com/Adharshk-ks)
 - [Arjun B](https://github.com/aarjun47)
