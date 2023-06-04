@@ -28,19 +28,13 @@ To set up the project locally, please follow the steps below:
 
 1.  Clone the repository using the following command:
 
-    bashCopy code
-
-    `git clone <repository_url>`
+    `git clone https://github.com/AazimAnish/RDBMS_miniProject.git`
 
 2.  Navigate to the project directory:
-
-    bashCopy code
 
     `cd client`
 
 3.  Install the dependencies using npm:
-
-    Copy code
 
     `npm install`
 
@@ -49,8 +43,6 @@ To set up the project locally, please follow the steps below:
 5.  Import the database schema and sample data into your MySQL database.
 
 6.  Start the development server:
-
-    sqlCopy code
 
     `npm run dev`
 
