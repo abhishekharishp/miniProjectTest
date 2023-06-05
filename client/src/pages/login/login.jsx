@@ -1,9 +1,9 @@
 import { useCallback } from "react";
 import SignInContainer from "../../components/SignInContainer/SignInContainer";
-import { redirect } from "react-router-dom";
+import {  useNavigate } from "react-router-dom";
 import "./login.css";
 const Login = () => {
-  const navigate = redirect();
+  const navigate = useNavigate();
 
   const onSignUpText2Click = useCallback(() => {
     navigate("/signup-mail");
