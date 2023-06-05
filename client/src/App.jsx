@@ -72,7 +72,6 @@ function App() {
       <Route path="/resources" element={<Resources />} />
       <Route path="/signup-mail" element={<SignUpMail />} />
       <Route path="/login" element={<Login />} />
-      <Route path="/signup-password" element={<SignUpPassword />} />
       <Route path="/create-circle" element={<CreateCircle />} />
     </Routes>
     
