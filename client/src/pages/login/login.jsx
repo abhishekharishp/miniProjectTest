@@ -26,7 +26,8 @@ const Login = () => {
           </div>
         </div>
       </div>
-      <img className="image-icon" alt="" src="/image.svg" />
+      <div className="image-part"><img className="image-icon" alt="" src="/image.svg" /></div>
+      
     </div>
   );
 };
