@@ -206,10 +206,9 @@
 .divpx-8 {
   position: absolute;
   width: 100%;
-  top: calc(50% - 241.5px);
   right: 0;
   left: 0;
-  height: 11.5rem;
+  height: 15.5rem;
   display: flex;
   flex-direction: column;
   padding: var(--padding-28xl) var(--padding-29xl) 0;
@@ -247,8 +246,8 @@
   position: relative;
   border-radius: var(--br-5xs);
   background-color: var(--color-lavender);
-  width: 30.81rem;
-  height: 32.56rem;
+  width: 22.81rem;
+  height: 24.56rem;
 }
 .agroupvariant23 {
   display: none;
@@ -308,12 +307,12 @@
 }
 .circle-group-icon {
   position: relative;
-  width: 100.94rem;
+  width: 58.88rem;
   height: 58.88rem;
 }
 .circle-section {
   background-color: var(--color-whitesmoke-100);
-  width: 120rem;
+  width: 90rem;
   height: 90rem;
   overflow: hidden;
   flex-shrink: 0;
@@ -323,7 +322,7 @@
   box-sizing: border-box;
   align-items: center;
   justify-content: center;
-  gap: 7.81rem;
+  gap: 1.81rem;
 }
 .landing-page,
 .main {
@@ -333,14 +332,14 @@
 }
 .main {
   align-self: stretch;
-  height: 363rem;
   padding: 0 0 5.93rem;
+  height: 319rem;
   box-sizing: border-box;
   align-items: center;
 }
 .landing-page {
   position: relative;
-  width: 100%;
+  width: 100;
   overflow: hidden;
   align-items: flex-start;
   gap: 0.06rem;
@@ -348,4 +347,5 @@
   font-size: var(--font-size-31xl);
   color: var(--color-gray-300);
   font-family: var(--font-roboto);
+  padding-left: 2rem;
 }
